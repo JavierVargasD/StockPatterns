@@ -298,7 +298,7 @@ def mock():
         j += 2 
         
 #mock()
-schedule.every().day.at("09:13:10").do(initTwoMinutesTimer) 
+schedule.every().day.at("10:13:10").do(initTwoMinutesTimer) 
 
 while True: 
     
